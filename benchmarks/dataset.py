@@ -222,6 +222,14 @@ DATASET_CONFIGS: dict[str, DatasetConfig] = {
     ),
     "fashionmnist": _gray("fashionmnist", "FashionMNIST", 10, mean=[0.2860], std=[0.3530]),
     "kmnist": _gray("kmnist", "KMNIST", 10, mean=[0.1918], std=[0.3483]),
+    "usps": _gray(
+        "usps",
+        "USPS",
+        10,
+        builder_name="USPS",
+        mean=[0.5],
+        std=[0.5],
+    ),
     "pneumoniamnist": _gray(
         "pneumoniamnist",
         "PneumoniaMNIST",
@@ -260,6 +268,14 @@ DATASET_CONFIGS: dict[str, DatasetConfig] = {
         5,
         builder_name="MedMNIST",
         builder_kwargs={"config_name": "retinamnist"},
+    ),
+    "gtsrb": _rgb(
+        "gtsrb",
+        "GTSRB",
+        43,
+        builder_name="GTSRB",
+        mean=[0.5, 0.5, 0.5],
+        std=[0.5, 0.5, 0.5],
     ),
     "breastmnist": _gray(
         "breastmnist",

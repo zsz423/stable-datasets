@@ -27,6 +27,7 @@ from .fgvc_aircraft import FGVCAircraft
 from .flowers102 import Flowers102
 from .food101 import Food101
 from .galaxy10 import Galaxy10Decal
+from .gtsrb import GTSRB
 from .hasy_v2 import HASYv2
 from .imagenet_1k import ImageNet1K
 from .imagenet_10 import Imagenette
@@ -45,6 +46,7 @@ from .stl10 import STL10
 from .svhn import SVHN
 from .tiny_imagenet import TinyImagenet
 from .tiny_imagenet_c import TinyImagenetC
+from .usps import USPS
 
 
 __all__ = [
@@ -73,6 +75,7 @@ __all__ = [
     "Flowers102",
     "Galaxy10Decal",
     "Food101",
+    "GTSRB",
     "HASYv2",
     "ImageNet1K",
     "ImageNet100",
@@ -88,4 +91,5 @@ __all__ = [
     "SVHN",
     "TinyImagenet",
     "TinyImagenetC",
+    "USPS",
 ]
